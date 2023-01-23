@@ -1,0 +1,6 @@
+[submodule "WeShareUs-blog-API"]
+	path = WeShareUs-blog-API
+	url = https://github.com/WeShareUs-blog/WeShareUs-blog-API.git
+[submodule "WeShareUs-blog-Front"]
+	path = WeShareUs-blog-Front
+	url = https://github.com/WeShareUs-blog/WeShareUs-blog-Front.git
