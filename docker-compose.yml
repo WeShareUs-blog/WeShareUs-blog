@@ -15,7 +15,7 @@ services:
       context: ./WeShareUs-blog-Front
       dockerfile: ../Dockerfile.front
     ports:
-      - "8080:3000"
+      - "3000:3000"
     depends_on:
       - db
     restart: always
@@ -26,7 +26,7 @@ services:
       context: ./WeShareUs-blog-API
       dockerfile: ../Dockerfile.api
     ports:
-      - "3000:3000"
+      - "4000:3000"
     environment:
       - DEV_MYSQL_HOST=db
       - DEV_MYSQL_USERNAME=root
